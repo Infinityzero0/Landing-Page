@@ -3,6 +3,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family:'Courier New', Courier, monospace;
+   margin: 0px;
 }
 .logo{
   display: flex;
@@ -11,7 +13,7 @@ body{
   font-size: 20px;
   font-weight: 900;
   color: aliceblue;
-  font-family:'Courier New', Courier, monospace;
+  
 }
 .logo img{
     width: 25px;
@@ -35,7 +37,33 @@ a{
     text-decoration: none;
     color: aliceblue;
 }
+.hero{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: flex-start;
+     background-color: rgb(127, 97, 190);  
+    gap: 40px;
+    color: aliceblue;
+}
+h1{
+    margin: 0px;
+    padding: 0px;
 
+}
+.hero img{
+  width: 450px;
+  height: 200px;    
+  border-radius: 10px;
+}
+.hero-button{
+    padding: 8px 15px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: wheat;
+    font-weight: 600;
+    background-color:cornflowerblue;
+}
 
 
 
