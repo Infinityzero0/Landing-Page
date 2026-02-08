@@ -65,5 +65,40 @@ h1{
     background-color:cornflowerblue;
 }
 
+.content{
+    display:flex;
+    flex-direction: column;
+    text-align: center; 
+}
 
+.content{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap; 
+    gap:30px;
+    padding: 20px;
+    background-color: blueviolet;
+}
 
+.cat img, .dog img, .parrot img, .owl img{
+  width:200px;
+  height:200px;
+  margin-bottom: 10px;
+  border-radius: 30%;
+  
+} 
+.title{
+    font-size: 30px;
+    font-weight: 700;
+    color: azure;
+}
+.Animal{
+ display: flex;
+flex-direction: row;
+gap: 20px; 
+}
+.Animal .text{
+    text-align: start;
+    color: antiquewhite;
+}
